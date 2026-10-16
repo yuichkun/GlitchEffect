@@ -1,0 +1,28 @@
+{
+  "mode": "dev",
+  "devUrl": "http://localhost:5173",
+  "assets": "www",
+  "name": "GlitchEffect",
+  "vendor": "Escentier",
+  "type": "effect",
+  "category": "Fx|Distortion",
+  "page": "",
+  "processorUuid": "F217ECD32E1C48F092827942A61F943F",
+  "controllerUuid": "C91A0C0385464259B0ED410F63836A3E",
+  "parameters": [],
+  "buses": {
+    "audioInputs": [
+      {
+        "name": "Stereo In",
+        "arrangement": "stereo",
+        "busType": "main"
+      }
+    ],
+    "audioOutputs": [
+      {
+        "name": "Stereo Out",
+        "arrangement": "stereo"
+      }
+    ]
+  }
+}

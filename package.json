@@ -1,0 +1,25 @@
+{
+  "name": "glitcheffect",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prod:web": "vite build",
+    "build:dev": "suara build dev",
+    "build:prod": "suara build prod",
+    "register:dev": "suara register dev",
+    "register:prod": "suara register prod",
+    "unregister:dev": "suara unregister dev",
+    "unregister:prod": "suara unregister prod"
+  },
+  "dependencies": {
+    "vue": "^3.5.35"
+  },
+  "devDependencies": {
+    "@types/audioworklet": "^0.0.100",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  }
+}
